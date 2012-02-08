@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/status_text"
+        android:text=""
+        android:textColor="@color/status_view" />
+
+</LinearLayout>
