@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -86,6 +85,8 @@ public class QrcodeGeneratorActivity extends Activity implements OnClickListener
         create = (Button)findViewById(R.id.create);
         text1 = (EditText)findViewById(R.id.editText1);
         
+        
+        ///
 //        //byte level = ERROR_CORRECTING_LEVEL_H;
 //        levelMode = ERROR_CORRECTING_LEVEL_L;
 //        // initial all variable according to error correcting level
